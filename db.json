@@ -1,0 +1,16 @@
+{
+  "Produtos": [
+    {
+      "id": 1,
+      "titulo": "Caneca star trek preta",
+      "valor": "R$: 29,90",
+      "imagem": "img/caneca-preta-star-trek.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Caneca star trek fosca",
+      "valor": "R$: 28,90",
+      "imagem": "img/caneca-fosca-star-trek.png"
+    }
+  ]
+}

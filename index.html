@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    </style>
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="hearth" src="img/pngtree-minecraft-heart-bar-png-image_5454378-transformed.png">
+        <h1 class="titulo">Alura Geek</h1>
+    </header>
+    <main class="conteudo">
+        <section class="meus__produtos">
+            <h1 class="titulo">Meus Produtos:</h1>
+            <h2 class="titulo__produtos">Canecas:</h2>
+            <section class="card" data-lista>
+            </section>
+        </section>
+        <section class="adicionar__produto">
+            <h1 class="titulo">Adicionar Produto:</h1>
+            <form class="campo__adicionar__produto" data-formulario>
+                <label for="productName">Nome do Produto:</label>
+                <input type="text" id="productName" name="productName" placeholder="Digite o nome do produto" required
+                    data-titulo>
+
+                <label for="productPrice">Preço:</label>
+                <input type="number" id="productPrice" name="productPrice" placeholder="Digite o preço" required
+                    data-valor>
+                <label for="productImage">Imagem:</label>
+                <input type="url" id="productImage" name="productImage" placeholder="Digite a URL da imagem" required
+                    data-imagem>
+                <div class="button-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <img class="hearth" src="img/pngtree-minecraft-heart-bar-png-image_5454378-transformed.png">
+        <p>Desenvolvido por <strong>Gabriel Santiago Davi</strong> 2024</p>
+    </footer>
+    <script src="/js/criarProdutos.js" type="module"></script>
+    <script src="js/mostrarProdutos.js" type="module"></script>
+</body>
+
+</html>
